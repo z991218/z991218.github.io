@@ -1,22 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://z991218.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-12-08T01:06:31.060Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://z991218.github.io"/>
-    <link rel="self" href="https://z991218.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://z991218.github.io/images/avatar.png</logo>
-    <icon>https://z991218.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[工作小记（二）]]></title>
-        <id>https://z991218.github.io/post/gong-zuo-xiao-ji-er/</id>
-        <link href="https://z991218.github.io/post/gong-zuo-xiao-ji-er/">
-        </link>
-        <updated>2020-12-08T00:42:42.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="欢迎使用-cmd-markdown-编辑阅读器">欢迎使用 Cmd Markdown 编辑阅读器</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>工作小记（二） | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://z991218.github.io/favicon.ico?v=1607389586697">
+<link rel="stylesheet" href="https://z991218.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="欢迎使用 Cmd Markdown 编辑阅读器
+
+我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，Cmd Markdown 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://z991218.github.io">
+        <img src="https://z991218.github.io/images/avatar.png?v=1607389586697" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://z991218.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">工作小记（二）</h2>
+            <div class="post-date">2020-12-08</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="欢迎使用-cmd-markdown-编辑阅读器">欢迎使用 Cmd Markdown 编辑阅读器</h1>
 <hr>
 <p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
 <blockquote>
@@ -171,216 +251,46 @@ Bob--&gt;Alice: I am good thanks!
 </li>
 </ol>
 </section>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工作小记（一）]]></title>
-        <id>https://z991218.github.io/post/gong-zuo-xiao-ji-yi/</id>
-        <link href="https://z991218.github.io/post/gong-zuo-xiao-ji-yi/">
-        </link>
-        <updated>2020-12-07T14:48:32.000Z</updated>
-        <content type="html"><![CDATA[<p>使用vue结合echarts封装成一个可复用Vue组件<br>
-在公司做数据可视化需求的时候用到了echarts框架，下面是自己使用Vue结合echarts的封装成一个可复用的组件的一些方法。</p>
-<p>首先在自己的项目中安装echarts、安装命令为：</p>
-<p>1<br>
-npm install echarts --save</p>
-<p>之后在Vue项目中使用，比如现在这个组件的名字叫:EchartsComponent.vue,</p>
-<p>复制代码<br>
-<template></p>
-  <div>
-    <div style="width:50%;height:200px;" :id="echarts" class="echarts"  ref="echarts"></div>
-  </div>
-</template>
-<script>
-// 引入echars
-import echarts from 'echarts'
-export default {
-  name: 'EchartsComponents',
-  props: {
-    // 接收父组件传递过来的信息
-    chartData: {
-      type: Array,
-      default: ()=>[]
-    }
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://z991218.github.io/post/gong-zuo-xiao-ji-yi/">
+                  <h3 class="post-title">
+                    工作小记（一）
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
   },
-  data () {
-    return {}
-  },
-  methods: {
-    drawChart () {
-      const vm = this
-      // 基于准备好的dom，初始化echarts实例
-     var myChart =echarts.init(document.getElementById(this.echarts))
-      // 绘制图表
-      myChart.setOption({
-        title: {
-          text: 'ECharts 入门示例'
-        },
-        tooltip: {},
-        xAxis: {
-          data: this.chartData
-        },
-        yAxis: {},
-        series: [
-          {
-            name: '销量',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-          }
-        ]
-      })
-    }
-  },
-  computed: {
-    echarts() {
-      return 'echarts' + Math.random()*100000
-    }
-  },
-    mounted: function () {
-        const vm = this
-        vm.$nextTick(()=> {
-            vm.drawChart()
-      })
-  },
-  created: () => {}
-}
+})
+
 </script>
-<style scoped>
-</style>
-<p>复制代码<br>
-这个组件在写的时候需要有几个注意的地方：</p>
-<p>使用echarts.init这个方法来创建一个 ECharts 实例，返回 echartinstance，不能在单个容器上初始化多个 ECharts 实例,因此需要用到Vue的computed属性来解决这个问题<br>
-因为把它封装成了一个Vue组件,因此要注意父子组件之间的通信、需要用到props这个属性<br>
-在Vue的生命周期mounted执行，并且在this.$nextTick里面执行这个方法，保证承若所有的子组件被挂载、能保证通过获取到组件<br>
-然后在父组件中调用、这里比如父组件为Test.vue，代码如下所示</p>
-<p>复制代码<br>
-<template></p>
-  <div>
-   <Row>
-      <i-col span="12"><EchartsCoponent :chartData="chartData1"/></i-col>
-      <i-col span="12"><EchartsCoponent :chartData="chartData2"/></i-col>
-    </Row>
-  </div>
-</template>
-<script>
-import EchartsCoponent from './EchartsComponent'
-export default {
-  name: 'Test',
-  data () {
-    return {
-      chartData1: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
-      chartData2: ['苹果', '香蕉', '橘子', '梨子', '樱桃', '哈密瓜']
-    }
-  },
-  components: {
-    EchartsCoponent
-  },
-  mounted: function() {
-    const vm = this 
-    vm.$nextTick(()=> {})
-  } 
-}
-</script>
-<style scoped>
-</style>
-<p>复制代码<br>
-里面使用到一些iview的样式</p>
-<p>这里需要注意的是需要把EchartsCoponent这个组件在Vue的components属性里面注册一下：</p>
-<p>在页面中的效果如下：</p>
-<p>还有第二种方法写组件，EchartsComponent.vue,代码如下：</p>
-<p>复制代码<br>
-<template></p>
-  <div>
-    <div style="width:50%;height:200px;"  ref="echarts"></div>
-  </div>
-</template>
-<script>
-import echarts from 'echarts'
-export default {
-  name: 'EchartsComponents',
-  props: {
-    chartData: {
-      type: Array,
-      default: ()=>[]
-    }
-  },
-  data () {
-    return {
-      count:1
-    }
-  },
-  methods: {
-    drawChart () {
-      const vm = this
-      // 基于准备好的dom，初始化echarts实例
-      var myChart = echarts.init(this.$refs.echarts)
-      // 绘制图表
-      myChart.setOption({
-        title: {
-          text: 'ECharts 入门示例'
-        },
-        tooltip: {},
-        xAxis: {
-          data: this.chartData
-        },
-        yAxis: {},
-        series: [
-          {
-            name: '销量',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-          }
-        ]
-      })
-    }
-  },
-  computed: {},
-    mounted: function () {
-        const vm = this
-        vm.$nextTick(()=> {
-            vm.drawChart()
-      })
-  },
-  created: () => {}
-}
-</script>
-<style scoped>
-</style>
-<p>复制代码<br>
-主要使用到vue的ref属性，不需要使用到计算属性：</p>
-<p>test.vue中代码一样、最中实现的效果是一样的；</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://z991218.github.io/post/hello-gridea/</id>
-        <link href="https://z991218.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
-    </entry>
-</feed>
+
+
+
+
+
+
+  </body>
+</html>
