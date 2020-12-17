@@ -2188,15 +2188,15 @@ p > code {
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_normal.cur'), default;
+      cursor: url('/media/curs/default_normal.cur'), default;
     }a {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_link.cur'), pointer !important;
+      cursor: url('/media/curs/default_link.cur'), pointer !important;
     }input, textarea, code {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_texto.cur'), text !important;
+      cursor: url('/media/curs/default_texto.cur'), text !important;
     }code > span.copy-code {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_zoomout.cur'), text !important;
+      cursor: url('/media/curs/default_zoomout.cur'), text !important;
     }.post img {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_vertical.cur'), zoom-in !important;
+      cursor: url('/media/curs/default_vertical.cur'), zoom-in !important;
     }.post img {
-      cursor: url('https://cdn.jsdelivr.net/gh/z991218/z991218.github.io@master/media/curs/default_vertical.cur'), zoom-out !important;
+      cursor: url('/media/curs/default_vertical.cur'), zoom-out !important;
     }
