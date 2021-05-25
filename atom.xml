@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://z991218.github.io</id>
     <title>bujio</title>
-    <updated>2021-05-25T15:37:44.080Z</updated>
+    <updated>2021-05-25T15:46:08.110Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://z991218.github.io"/>
     <link rel="self" href="https://z991218.github.io/atom.xml"/>
@@ -26,33 +26,6 @@
         </link>
         <updated>2020-12-16T06:36:09.000Z</updated>
         <content type="html"><![CDATA[<p>Day4</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工作小记（三）]]></title>
-        <id>https://z991218.github.io/gong-zuo-xiao-ji-san/</id>
-        <link href="https://z991218.github.io/gong-zuo-xiao-ji-san/">
-        </link>
-        <updated>2020-12-10T08:53:00.000Z</updated>
-        <content type="html"><![CDATA[<p>Day 3</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工作小记（二）]]></title>
-        <id>https://z991218.github.io/gong-zuo-xiao-ji-er/</id>
-        <link href="https://z991218.github.io/gong-zuo-xiao-ji-er/">
-        </link>
-        <updated>2020-12-08T00:42:42.000Z</updated>
-        <content type="html"><![CDATA[<p>Day2</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工作小记（一）]]></title>
-        <id>https://z991218.github.io/gong-zuo-xiao-ji-yi/</id>
-        <link href="https://z991218.github.io/gong-zuo-xiao-ji-yi/">
-        </link>
-        <updated>2020-12-07T14:48:32.000Z</updated>
-        <content type="html"><![CDATA[<p>Day1</p>
 ]]></content>
     </entry>
 </feed>
